@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+/*Start Home*/
+.home {
+  background-image: url('Images/slider/slider-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.home .navbar {
+  padding: 1% 6%;
+}
+
+.home .logo {
+  float: left;
+  color: #FF305B;
+  font-size: 1.4em;
+
+}
+
+.home .list {
+  float: right;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.home .list ul {
+  list-style: none;
+}
+
+.home .list ul li {
+  float: left;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.home .list .red , .portfolio .content .red{
+  color: #FF305B;
+}
+
+.home .list ul li:hover {
+  color: #FF305B;
+}
+
+.home .hello {
+  text-align: center;
+  padding-top: 12%;
+}
+
+.home .hello h2 {
+  color: #fff
+}
+
+.home .hello h1 {
+  color: #FF305B;
+  font-size: 4em;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.home .hello p {
+  font-size: 1.5em;
+  color: #fff;
+  position: relative;
+}
+
+.home .hello p::after {
+  content: " ";
+  position: absolute;
+  height: 35px;
+  width: 3px;
+  left: 62%;
+  top: -3px;
+  background-color: #fff;
+  color: #fff;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.712);
+  height: 100%;
+  width: 100%;
+}
+/*End of Home*/
+
+/*Start About*/
+.about {
+  height: 100vh;
+  padding: 6% 10% 6% 15%;
+}
+
+.about .image {
+  float: left;
+  width: 40%;
+  position: relative;
+  z-index: 1;
+}
+
+.about .image img {
+  border: 1px transparent;
+  border-radius: 6px;
+}
+
+.about .content {
+  float: right;
+  width: 55%;
+  margin-left: 5%;
+}
+
+.about .content h1{
+  position: relative;
+  padding-left: 3%;
+  color: #333333;
+}
+
+.about .content h1::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 4px;
+  color: #FF305B;
+  background-color: #FF305B;
+  left: -3px;
+  top: 10%;
+  
+}
+
+.about .content p {
+  color: #555555;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  line-height: 1.4em;
+  border-bottom: 1px dashed #555555;
+}
+
+.about .list1 , .about .list2 {
+  float: left;
+  width: 45%;
+  padding-top: 4%;
+  padding-right: 3%;
+  font-weight: 600;
+  color: #333333;
+}
+
+.about .content span {
+  color: #555555;
+}
+
+.about .content .btn {
+  background-color: #FF305B;
+  padding: 2%;
+  border: 1px transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.1em;
+  margin: 4% 1% 2% 1%;
+}
+
+/*End of About*/
+
+/*Start Services*/
+.service , .numbers , .Testimonial .content , .blog{
+  background-color: #F1F1F1;
+}
+
+.service , .portfolio , .numbers {
+  padding: 5%;
+  text-align: center;
+}
+
+.service h1 , .portfolio h1 , .Testimonial h1 , .blog h1 {
+  font-size: 2.2em;
+  color: #333333;
+  position: relative;
+  padding-bottom: 1.5%;
+  text-align: center;
+}
+
+.service h1::before , .portfolio h1::before , .Testimonial h1::before , .blog h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-color: #ff305b;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+}
+
+.service h1::after , .portfolio h1::after , .Testimonial h1::after , .blog h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;  
+  background-color: #ff305b;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+}
+
+.service .content {
+  padding: 3%;
+}
+.service .content .frame , .numbers .frame {
+  float: left;
+  width: 24%;
+  padding-left: 2%;
+}
+
+.service .content .frame i , .numbers .frame i{
+  color: #FF305B;
+  font-size: 1.6em;
+}
+
+.service .content .frame h3 , .numbers .frame h3{
+  padding-top: 12%;
+  padding-bottom: 8%;
+  color: #333333;
+  font-size: 1.4em;
+}
+
+.service .content .frame p , .numbers .frame p , .blog .content .item p {
+  color: #555555;
+  line-height: 1.4em;
+}
+/*End of Services*/
+
+/*Start Portfolio*/
+.portfolio .content ol {
+  list-style: none;
+  margin-top: 3%;
+  margin-left: 34%;
+}
+
+.portfolio .content ol li {
+  float: left;
+  padding-left: 3%;
+  cursor: pointer;
+}
+
+.portfolio .content .rows {
+  padding-top: 5%;
+  width: 100%;
+}
+
+.portfolio .content .row-one , .portfolio .content .row-two {
+  padding: 2% 5%;
+}
+.portfolio .content .row-one img , .portfolio .content .row-two img {
+  float: left;
+  width: 33.33%;
+  padding-left: 4%;
+  cursor: pointer;
+}
+/*End of Portfolio*/
+
+/*Start Testimonials*/
+.Testimonial {
+  padding: 5%;
+}
+
+.Testimonial .content {
+  width: 70%;
+  margin: 3% 16%;
+  padding: 5%;
+  position: relative;
+  z-index: 1;
+}
+
+.Testimonial .content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 150px solid #FF305B;
+  border-right: 150px solid transparent;
+  z-index: 999;
+}
+
+.Testimonial .content .image  {
+  float: left ;
+  width: 30%;
+}
+
+.Testimonial .content .rate {
+  float: left;
+  width: 70%;
+}
+
+.Testimonial .content .image img {
+  border-radius: 50%;
+}
+
+.Testimonial .rate h3 {
+  font-size: 1.5em;
+  padding-bottom: 2%;
+  color: #333333;
+}
+
+.Testimonial .rate h4 , .Testimonial .rate p{
+  color: #555555;
+  padding-bottom: 2%;
+  line-height: 1.3em;
+  font-style: italic;
+}
+
+.Testimonial .rate .icon i {
+  color: #f1c30d;
+}
+/*End of Testimonials*/
+
+/*Start Blog*/
+.blog {
+  padding: 5%;
+}
+
+.blog .content {
+  margin-top: 4%;
+  padding: 0 5%;
+}
+
+.blog .content .item {
+  float: left;
+  background-color: #fff;
+  width: 31%;
+  margin-left: 2%;
+}
+
+.blog .content .item-container {
+  padding: 6%;
+}
+
+.blog .content .item img {
+  height: 40%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.blog .content .item h2 {
+  padding: 6% 0;
+  color: #333333;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+} 
+
+.blog .content .item h2:hover {
+  color: #FF305B;
+}
+
+.blog .content .item p {
+  padding-bottom: 6%;
+}
+.blog .content .item a {
+  color: #555555;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.blog .content .item a:hover {
+  color: #FF305B;
+}
+
+/*End of Blog*/
